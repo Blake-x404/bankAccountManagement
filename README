@@ -1,0 +1,23 @@
+# bankAccount Class
+A C++ class that represents a bank account.
+
+## Data DIctionary
+
+| Attribute             |   Data Type       | Description   |
+|-----------------------|-------------------|---------------|
+| accountNumber         | std:: string      | stores the account number      |
+| accountHolderName     | std:: string      | stores the account holder name |
+| balance               | std:: string      | stores the account balance     |
+
+## Methods List
+
+| Method Signatures                   | Return Type | Description |
+|-----------------------------------------------------------------|
+| BankAccount()                       | Constructor | Default constructor         |
+| BankAccount(string, string, double) | Constructor | Parameterized Constructor   |
+| getAccountNumber()                  | string      | Returns Account Number      |
+| getAccountHolderName()              | string      | Returns Account Holder Name |
+| getBalance()                        | double      | Returns Balance             |
+| setAccountHolderName(string)        | void        | Sets Account Holder Name    |
+| deposit(double)                     | void        | Adds Money                  |
+| withdraw(double)                    | void        | Removes Money               |

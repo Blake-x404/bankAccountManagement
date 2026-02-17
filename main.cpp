@@ -1,3 +1,5 @@
+// Blake Smith, 2/16/2026, this program manages basic bank account information//
+
 #include <iostream>
 #include <vector>
 #include <string>
